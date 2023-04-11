@@ -10,5 +10,5 @@ A repository containing code for the #30DayChartChallenge. Check out the challen
 
 ### Day 11: Circular (in R)
 <p align="center">
-<img src="charts/11_Circular.png?raw=true" width="50%">
+<img src="charts/11_circular.png?raw=true" width="50%">
 </p>
