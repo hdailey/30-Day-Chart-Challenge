@@ -59,6 +59,6 @@ plot_11 <- ggplot() +
         plot.subtitle = element_text(size = 22, colour = "#003060", lineheight = 0.5))
 
 ggsave(plot = plot_11, path = here::here("2023/charts"),
-       paste0("11", "_Circular", ".png"), scale = 0.5, dpi = 300,
+       paste0("11", "_circular", ".png"), scale = 0.5, dpi = 300,
        height = 8, width = 11, unit = "in")
 
