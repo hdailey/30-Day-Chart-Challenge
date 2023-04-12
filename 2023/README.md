@@ -12,3 +12,8 @@ A repository containing code for the #30DayChartChallenge. Check out the challen
 <p align="center">
 <img src="charts/11_circular.png?raw=true" width="50%">
 </p>
+
+### Day 12: Theme: Economist (in R)
+<p align="center">
+<img src="charts/12_economist.png?raw=true" width="50%">
+</p>
