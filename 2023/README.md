@@ -6,6 +6,13 @@ A repository containing my contributions for the [#30DayChartChallenge 2023](htt
 <img src="prompts.png?raw=true" width=60%>
 </p>
 
+## Comparisons
+
+### Day 1: Part-To-Whole (in R)
+<p align="center">
+  <img src="charts/01_partTowhole.png?raw=true" width=50%>
+</p>
+
 ## Distributions
 
 ### Day 11: Circular (in R)
