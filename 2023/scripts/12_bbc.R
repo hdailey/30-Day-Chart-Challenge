@@ -8,11 +8,11 @@ library(bbplot)
 # Drinking water Data: https://ourworldindata.org/water-access#how-many-people-do-not-have-access-to-safe-drinking-water
 # Population Data: https://ourworldindata.org/grapher/population-past-future
 
-wqGlobal <- read_csv(here::here("2023/data/12_economist_WQ.csv")) %>%
+wqGlobal <- read_csv(here::here("2023/data/12_BBC_WQ.csv")) %>%
   filter(Entity %in% c("Afghanistan", "United States", 
                        "Ethiopia", "Brazil", "Bangladesh"))
 
-popGlobal <- read_csv(here::here("2023/data/12_economist_Pop.csv")) %>%
+popGlobal <- read_csv(here::here("2023/data/12_BBC_Pop.csv")) %>%
   filter(Entity %in% c("Afghanistan", "United States", 
                        "Ethiopia", "Brazil", "Bangladesh")) %>%
   filter(Year <= 2020,
