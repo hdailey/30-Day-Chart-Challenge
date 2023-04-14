@@ -24,3 +24,9 @@ A repository containing my contributions for the [#30DayChartChallenge 2023](htt
 <p align="center">
 <img src="charts/12_BBC.png?raw=true" width="50%">
 </p>
+
+### Day 13: Pop Culture (in R)
+<p align="center">
+<img src="charts/13_popculture.png?raw=true" width="50%">
+</p>
+
