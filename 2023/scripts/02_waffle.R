@@ -8,7 +8,6 @@ showtext_auto()
 # Manually download data source from Kaggle:
 # North American Ski Resort Data via Aryan Juyal: https://www.kaggle.com/datasets/aryanjuyal/comparison-of-north-american-ski-resorts
 
-
 skiResort <- read_csv(here::here("2023/data/02_waffle.csv")) %>%
   mutate(`Less Than $50 (USD)` = ifelse(`Lift ticket (USD)` <= 50, 1, 0),
          `Less Than $100 (USD)` = ifelse(`Lift ticket (USD)` <= 100 & `Lift ticket (USD)` > 50, 1, 0),
