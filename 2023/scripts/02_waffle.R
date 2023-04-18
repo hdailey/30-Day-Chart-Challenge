@@ -36,12 +36,8 @@ plot_02 <- skiResort %>%
         plot.title = element_text(family = "Roboto", size = 64, face = "bold", hjust = 0.5),
         plot.title.position = "plot",
         plot.subtitle = element_text(size = 48, hjust = 0.5, lineheight = 0.25),
-        legend.position = "top",
-        legend.justification = "center",
-        legend.key.height = unit(0.5, "cm"),
-        legend.key.width = unit(0.5, "cm"),
-        legend.margin = margin(t = 5, b = -10),
-        plot.caption = element_text(size = 32, hjust = 0.5, margin = margin(b = 10))) +
+        plot.caption = element_text(size = 12, hjust = 0.5, margin = margin(b = 10))) +
   guides(fill = guide_legend(nrow = 2))
 
-ggsave(plot = plot_02, path = here::here("2023/charts/"), "02_waffle.png", dpi = 320, height = 8, width = 11, unit = "in")
+ggsave(plot = plot_02, path = here::here("2023/charts/"), "02_waffle.png", 
+       dpi = 320, height = 8, width = 11, unit = "in")
