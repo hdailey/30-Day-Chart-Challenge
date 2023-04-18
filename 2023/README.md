@@ -13,6 +13,11 @@ A repository containing my contributions for the [#30DayChartChallenge 2023](htt
   <img src="charts/01_partTowhole.png?raw=true" width=50%>
 </p>
 
+### Day 2: Waffle (in R)
+<p align="center">
+  <img src="charts/02_waffle.png?raw=true" width=50%>
+</p>
+
 ## Distributions
 
 ### Day 11: Circular (in R)
