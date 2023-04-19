@@ -8,29 +8,34 @@ A repository containing my contributions for the [#30DayChartChallenge 2023](htt
 
 ## Comparisons
 
-### Day 1: Part-To-Whole (in R)
+### Day 1: Part-To-Whole
 <p align="center">
   <img src="charts/01_partTowhole.png?raw=true" width=50%>
 </p>
 
-### Day 2: Waffle (in R)
+### Day 2: Waffle
 <p align="center">
   <img src="charts/02_waffle.png?raw=true" width=50%>
 </p>
 
+### Day 3: Fauna and Flora
+<p align="center">
+  <img src="charts/03_faunaflora.png?raw=true" width=50%>
+</p>
+
 ## Distributions
 
-### Day 11: Circular (in R)
+### Day 11: Circular
 <p align="center">
 <img src="charts/11_circular.png?raw=true" width="50%">
 </p>
 
-### Day 12: Theme-BBC (in R)
+### Day 12: Theme-BBC
 <p align="center">
 <img src="charts/12_BBC.png?raw=true" width="50%">
 </p>
 
-### Day 13: Pop Culture (in R)
+### Day 13: Pop Culture
 <p align="center">
 <img src="charts/13_popculture.png?raw=true" width="50%">
 </p>
