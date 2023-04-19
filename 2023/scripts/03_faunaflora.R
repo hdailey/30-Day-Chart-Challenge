@@ -31,11 +31,14 @@ plot_03 <- ggplot() +
        The map below shows the site locations noted within the Origins of Agriculture database.",
        caption = "Source: Orgins of Agriculture | #30DayChartChallenge | Day 3 | Fauna Flora") +
   theme_void() +
-  theme(text = element_text(size = 24, family = "Cabin Condensed"),
-        plot.title = element_text(family = "Cabin", face = "bold",
-                                  margin = margin(b = 10)),
+  theme(text = element_text(size = 48, family = "Cabin Condensed"),
+        plot.background = element_rect(fill ="grey95", color = NA),
+        panel.background = element_rect(fill = "grey95", color = NA),
+        plot.title = element_text(size = 64, family = "Cabin", face = "bold",
+                                  margin = margin(t = 10, b = 10, l = 10)),
         plot.subtitle = element_textbox_simple(lineheight = 0.5, hjust = 0, margin = margin(b = 10)),
+        plot.caption = element_text(size = 28),
         legend.position = "top",
         legend.title = element_blank())
   
-        
+ggsave(plot = plot_03, path = here::here("2023/charts/"), "03_faunaflora.png", dpi = 320, height = 8, width = 11, unit = "in")
