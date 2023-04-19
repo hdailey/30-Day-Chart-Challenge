@@ -23,6 +23,11 @@ A repository containing my contributions for the [#30DayChartChallenge 2023](htt
   <img src="charts/03_faunaflora.png?raw=true" width=50%>
 </p>
 
+### Day 4: Historical
+<p align="center">
+  <img src="charts/04_historical.png?raw=true" width=50%>
+</p>
+
 ## Distributions
 
 ### Day 7: Hazards
