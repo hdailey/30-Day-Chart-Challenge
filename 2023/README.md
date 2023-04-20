@@ -28,6 +28,11 @@ A repository containing my contributions for the [#30DayChartChallenge 2023](htt
   <img src="charts/04_historical.png?raw=true" width=50%>
 </p>
 
+### Day 5: Slope
+<p align="center">
+  <img src="charts/05_slope.png?raw=true" width=50%>
+</p>
+
 ## Distributions
 
 ### Day 7: Hazards

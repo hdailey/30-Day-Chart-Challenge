@@ -38,7 +38,7 @@ plot_05 <- sanitation %>%
              shape = 21, size = 2, stroke = 1.5) +
   ggrepel::geom_text_repel(data = sanitationContinents %>% filter(Year == 2020),
                            aes(label = glue::glue("{Entity}: ", "{format(abs(changeSan), digits = 3)}%")),
-                           hjust = 0,size = 5.5, family = "Cabin Condensed",
+                           hjust = 0, size = 12, family = "Cabin Condensed",
                            direction = "y", force = 0.5, min.segment.length = 0,
                            segment.size = 0.5, lineheight = 0.25) +
   scale_color_met_c(name = "Paquin", direction = -1) + 
@@ -50,15 +50,19 @@ plot_05 <- sanitation %>%
 excreta are safely disposed in situ or transported and treated off-site*. Shown here is the percentage of the global population with access to safely managed sanitation. Highlighted are the major continental areas with approximately 25-percent of the global population having access to safely managed sanitation.",
        caption = "Source: Our World in Data | #30DayChartChallenge | Day 5 | Slope") +
   theme_minimal() +
-  theme(text = element_text(family = "Cabin Condensed", size = 12),
-        plot.title = element_text(family = "Cabin", size = 24, face = "bold", hjust = 0.5),
-        plot.subtitle = ggtext::element_textbox_simple(lineheight = 0.5, size = 16, hjust = 0, margin = margin(b = 10)),
+  theme(text = element_text(family = "Cabin Condensed", size = 40),
+        plot.background = element_rect(fill = "grey95", colour = "grey95"),
+        panel.background = element_rect(fill = "grey95", colour = "grey95"),
+        plot.title = element_text(family = "Cabin", size = 48, face = "bold", hjust = 0.5),
+        plot.subtitle = ggtext::element_textbox_simple(lineheight = 0.5, size = 42, hjust = 0, margin = margin(t = 10, r = 20, b = 10)),
         plot.caption.position = "plot",
         plot.caption = element_text(margin = margin(b = 10)),
         legend.position = "top",
-        legend.justification = "center"
+        legend.justification = "center",
         ) +
-  guides(colour = guide_colorbar(title = str_wrap("Change in access to safe sanitation (%)", width = 20), title.position = "top", 
+  guides(colour = guide_colorbar(title = str_wrap("Change in access to safe sanitation (%)", width = 50), 
+                                 title.position = "top", 
+                                 title.lineheight = 0.5,
                                  title.hjust = 0.5, title.vjust = 1,
                                  title.justification = "center",
                                  ticks = TRUE, 
@@ -66,4 +70,4 @@ excreta are safely disposed in situ or transported and treated off-site*. Shown 
                                  barheight = 1.5, barwidth = 15,
                                  label.vjust = 2.5))
 
-  
+ggsave(plot = plot_05, path = here::here("2023/charts/"), "05_slope.png", dpi = 320, height = 11, width = 8, unit = "in")
