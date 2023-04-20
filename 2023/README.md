@@ -33,6 +33,11 @@ A repository containing my contributions for the [#30DayChartChallenge 2023](htt
   <img src="charts/05_slope.png?raw=true" width=50%>
 </p>
 
+### Day 6: Data Day-OWID
+<p align="center">
+  <img src="charts/06_owid.png?raw=true" width=50%>
+</p>
+
 ## Distributions
 
 ### Day 7: Hazards
