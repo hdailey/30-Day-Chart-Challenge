@@ -45,6 +45,11 @@ A repository containing my contributions for the [#30DayChartChallenge 2023](htt
   <img src="charts/07_hazards.png?raw=true" width=50%>
 </p>
 
+### Day 8: Humans
+<p align="center">
+  <img src="charts/08_humans.png?raw=true" width=50%>
+</p>
+
 ### Day 11: Circular
 <p align="center">
 <img src="charts/11_circular.png?raw=true" width="50%">
