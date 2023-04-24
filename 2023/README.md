@@ -50,6 +50,12 @@ A repository containing my contributions for the [#30DayChartChallenge 2023](htt
   <img src="charts/08_humans.png?raw=true" width=50%>
 </p>
 
+### Day 9: High Low
+<p align="center">
+  <img src="charts/09_highlow.png?raw=true" width=50%>
+</p>
+
+
 ### Day 11: Circular
 <p align="center">
 <img src="charts/11_circular.png?raw=true" width="50%">
