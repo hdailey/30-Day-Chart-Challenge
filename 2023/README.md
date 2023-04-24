@@ -60,3 +60,8 @@ A repository containing my contributions for the [#30DayChartChallenge 2023](htt
 <img src="charts/13_popculture.png?raw=true" width="50%">
 </p>
 
+### Day 14: New Tool
+<p align="center">
+<img src="charts/14_newtool.png?raw=true" width="50%">
+</p>
+
