@@ -82,6 +82,11 @@ A repository containing my contributions for the [#30DayChartChallenge 2023](htt
 <img src="charts/15_positivenegative.png?raw=true" width="50%">
 </p>
 
+### Day 18: Data Day - EuroStat
+<p align="center">
+<img src="charts/18_eurostat.png?raw=true" width="50%">
+</p>
+
 ## Timeseries
 ### Day 24: Theme Day: UN Women
 <p align="center">
