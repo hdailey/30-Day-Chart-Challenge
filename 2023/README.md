@@ -85,7 +85,7 @@ A repository containing my contributions for the [#30DayChartChallenge 2023](htt
 ## Timeseries
 
 ## Uncertainties
-###Day 25: Global Change
+### Day 25: Global Change
 <p align="center">
 <img src="charts/25_globalchange.png?raw=true" width="50%">
 </p>
