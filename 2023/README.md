@@ -83,6 +83,10 @@ A repository containing my contributions for the [#30DayChartChallenge 2023](htt
 </p>
 
 ## Timeseries
+### Day 24: Theme Day: UN Women
+<p align="center">
+<img src="charts/24_UNwomen.png?raw=true" width="50%">
+</p>
 
 ## Uncertainties
 ### Day 25: Global Change
