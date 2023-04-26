@@ -6,6 +6,11 @@ A repository containing my contributions for the [#30DayChartChallenge 2023](htt
 <img src="prompts.png?raw=true" width=60%>
 </p>
 
+## 2023
+<p align="center">
+<img src="charts/00_finalimg.png?raw=true" width="100%">
+</p>
+
 ## Comparisons
 
 ### Day 1: Part-To-Whole
