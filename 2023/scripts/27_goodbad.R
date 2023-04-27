@@ -10,12 +10,12 @@ showtext_auto()
 
 gwPew <- openintro::global_warming_pew %>%
   mutate(sentiment = case_when(response == "Don't know / refuse to answer"~"Neutral",
-                               response == "Not warming"~"Negative",
-                               response == "Earth is warming"~"Positive", .default = response)) %>%
+                               response == "Not warming"~"Bad",
+                               response == "Earth is warming"~"Good", .default = response)) %>%
   group_by(party_or_ideology) %>%
-  reframe(positivePerc = sum(sentiment == "Positive") / n(),
+  reframe(positivePerc = sum(sentiment == "Good") / n(),
           neutralPerc = sum(sentiment == "Neutral") / n(),
-          negativePerc = sum(sentiment == "Negative") / n(),
+          negativePerc = sum(sentiment == "Bad") / n(),
           response, sentiment) %>%
   ungroup() %>%
   mutate(response = fct_relevel(response, levels(response)),
@@ -31,8 +31,8 @@ text <-  glue::glue("A Pew Research Poll (2010) asked 1,306 Americans, ",
                     "'From what you have read and heard, is there solid evidence that the average temperature on earth has been getting warmer over the past few decades, or not?' ", 
                     "This visualization explores the number of responses that were noted as the Earth is warming, is not warming, or do not know/refuse to answer. ", 
                     "These answers were then coded as",
-                    "<span style='color:#7375e9'> **Positive**</span>, ",
-                    "<span style='color:#d9534f'>**Negative**</span>, or ",
+                    "<span style='color:#7375e9'> **Good**</span>, ",
+                    "<span style='color:#d9534f'>**Bad**</span>, or ",
                     "<span style='color:#f9f9f9'>**Neutral**</span>, respectively.",
                     "Negative sentiments surrounding climate change were found in higher percentages of responses with individuals who identify with Conservative Republican ideologies (n = 450, 61%), ",
                     "whereas positive sentiments were found in higher percentages of responses with individuals who identify with Liberal Democratic ideologies (n = 405, 90%).")
@@ -45,9 +45,9 @@ plot_27 <- gwPew %>%
   geom_col(position = "fill", colour = "grey5") +
   facet_grid(cols = vars(party_or_ideology), scale = "free", space = "fixed", shrink = FALSE,
              margins = margin(0, 0, 0, 0)) +
-  scale_fill_manual(values = c("Positive" = "#7375e9",
+  scale_fill_manual(values = c("Good" = "#7375e9",
                                "Neutral" = "#f9f9f9",
-                               "Negative" = "#d9534f")) +
+                               "Bad" = "#d9534f")) +
   scale_y_continuous(position = "left", 
                      label = c("0", "25%", "50%", "75%", "100%")) +
   labs(x = "",
