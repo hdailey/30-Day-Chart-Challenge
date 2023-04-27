@@ -109,3 +109,7 @@ A repository containing my contributions for the [#30DayChartChallenge 2023](htt
 <img src="charts/26_localchange.png?raw=true" width="50%">
 </p>
 
+### Day 27: Good/Bad
+<p align="center">
+<img src="charts/27_goodbad.png?raw=true" width="50%">
+</p>

@@ -1,6 +1,8 @@
 library(tidyverse)
 library(magick)
 
+file.remove(here::here("2023/charts/00_finalimg.png"))
+
 img_list <- list.files(path = here::here("2023/charts/"), full.names = TRUE)
 
 img_montage <- image_read(img_list) %>% 
