@@ -113,3 +113,8 @@ A repository containing my contributions for the [#30DayChartChallenge 2023](htt
 <p align="center">
 <img src="charts/27_goodbad.png?raw=true" width="50%">
 </p>
+
+### Day 28: Trend
+<p align="center">
+<img src="charts/28_trend.png?raw=true" width="50%">
+</p>
