@@ -10,4 +10,3 @@ A repository containing my contributions for the [#30DayChartChallenge 2024](htt
 ## Comparisons
 
 ### Day 1: Part-To-Whole
-
