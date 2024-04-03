@@ -11,5 +11,5 @@ A repository containing my contributions for the [#30DayChartChallenge 2024](htt
 
 ### Day 2: neo
 <p align="center">
-  <img src="plots/02_neo.png?raw=true" width=50%>
+  <img src="charts/02_neo.png?raw=true" width=50%>
 </p>
