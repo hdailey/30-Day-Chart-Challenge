@@ -9,4 +9,7 @@ A repository containing my contributions for the [#30DayChartChallenge 2024](htt
 ## 2024
 ## Comparisons
 
-### Day 1: Part-To-Whole
+### Day 2: neo
+<p align="center">
+  <img src="plots/02_neo.png?raw=true" width=50%>
+</p>
