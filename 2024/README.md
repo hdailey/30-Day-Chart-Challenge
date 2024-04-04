@@ -14,7 +14,12 @@ A repository containing my contributions for the [#30DayChartChallenge 2024](htt
   <img src="charts/02_neo.png?raw=true" width=50%>
 </p>
 
-### Day 3: makeover (inR)
+### Day 3: makeover (in R)
 <p align="center">
   <img src="charts/03_makeover.png?raw=true" width=50%>
+</p>
+
+### Day 3: waffle (in R)
+<p align="center">
+  <img src="charts/04_waffle.png?raw=true" width=50%>
 </p>
