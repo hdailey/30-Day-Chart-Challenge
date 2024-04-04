@@ -1,4 +1,4 @@
-# 2024 30 Day chart Challenge
+# 2024 30 Day Chart Challenge
 
 A repository containing my contributions for the [#30DayChartChallenge 2024](https://30daychartchallenge.org/).
 
@@ -9,7 +9,12 @@ A repository containing my contributions for the [#30DayChartChallenge 2024](htt
 ## 2024
 ## Comparisons
 
-### Day 2: neo
+### Day 2: neo (in Python)
 <p align="center">
-  <img src="plots/02_neo.png?raw=true" width=50%>
+  <img src="charts/02_neo.png?raw=true" width=50%>
+</p>
+
+### Day 3: makeover (inR)
+<p align="center">
+  <img src="charts/03_makeover.png?raw=true" width=50%>
 </p>
