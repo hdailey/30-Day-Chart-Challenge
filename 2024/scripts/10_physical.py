@@ -15,7 +15,7 @@ import textwrap
 rc("font", **{"family":"sans-serif", "sans-serif":["Calibri"]})
 
 ## Data
-olympicAthletes = pd.read_csv("C:/Users/hdailey/OneDrive - Water Boards/Reference/DataViz/30-Day-Chart-Challenge/2024/data/10_physical.csv")
+olympicAthletes = pd.read_csv("10_physical.csv")
 
 # Data Exploration and Cleaning
 olympicAthletesGrouped = olympicAthletes.dropna()
