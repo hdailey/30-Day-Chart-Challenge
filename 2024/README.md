@@ -30,6 +30,11 @@ A repository containing my contributions for the [#30DayChartChallenge 2024](htt
   <img src="charts/08_circular.png?raw=true" width=50%>
 </p>
 
+### Day 9: major/minor (in Python)
+<p align="center">
+  <img src="charts/09_majorminor.png?raw=true" width=50%>
+</p>
+
 ### Day 10: physical (in Python)
 <p align="center">
   <img src="charts/10_physical.png?raw=true" width=50%>
