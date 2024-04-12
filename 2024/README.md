@@ -39,3 +39,8 @@ A repository containing my contributions for the [#30DayChartChallenge 2024](htt
 <p align="center">
   <img src="charts/10_physical.png?raw=true" width=50%>
 </p>
+
+### Day 11: mobile-friendly (in R)
+<p align="center">
+  <img src="charts/11_mobilefriendly.png?raw=true" width= 50%>
+</p>
