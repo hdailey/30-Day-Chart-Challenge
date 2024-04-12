@@ -44,3 +44,8 @@ A repository containing my contributions for the [#30DayChartChallenge 2024](htt
 <p align="center">
   <img src="charts/11_mobilefriendly.png?raw=true" width= 50%>
 </p>
+
+### Day 12: Theme Day - Reuters Graphics
+<p align="center">
+  <img src="charts/12_reuters.png?raw=true" width=50%>
+</p>
